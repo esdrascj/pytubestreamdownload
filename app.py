@@ -3,6 +3,12 @@ import pytube as py
 from pytube import YouTube
 import os
 
+st.set_page_config( #esse parametro é para a configuração do app multipage, deve ser atribuido em todas as páginas, antes do código css
+    page_title="Yt Download",
+    page_icon="📹",
+    initial_sidebar_state="expanded",
+  
+)
 #st.markdown(custom_css, unsafe_allow_html=True)
 #st.image("logo.png")
 # Get the YouTube link from the user
