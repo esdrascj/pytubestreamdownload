@@ -1,0 +1,10 @@
+#Criar um ambiente virtual
+- Instalação da biblioteca `venv`: pip install venv #Antes de criar uma venv, você precisa garantir que a biblioteca `venv` esteja instalada em seu sistema.
+- criação de uma venv: python -m venv nome_da_venv #Após a instalação da biblioteca `venv`, você pode prosseguir com a criação da venv
+- Ativação da venv: nome_da_venv\Scripts\activate #Após a criação da venv, você precisará ativá-la antes de poder usá-la
+- Instalando pacotes e bibliotecas: #Com a venv ativada, você pode instalar pacotes e bibliotecas específicas para o seu projeto.
+pip install streamlit
+pip install pandas
+pip install pytube
+- Desativação da venv: deactivate #Após terminar o trabalho vc pode desativar utilizando esse comando
+- Freeze dos requirements: pip freeze > requirements.txt #Para facilitar a reprodução do ambiente virtual em outro local, é útil ter um arquivo com uma lista de todos os pacotes e versões instalados.
