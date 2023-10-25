@@ -6,7 +6,8 @@ import os
 #st.markdown(custom_css, unsafe_allow_html=True)
 #st.image("logo.png")
 # Get the YouTube link from the user
-# st.text("Enter The Youtube Video link: ")
+st.text("Faça o download do seu vídeo utilizando o nosso app ")
+
 youtube_link = st.text_input("Insira a url do vídeo para baixar:", placeholder="Somente vídeos do youtube",key="youtubelink")
 
 # Get the video resolution from the user
@@ -51,3 +52,4 @@ if st.button("Buscar Vídeo"):
             
 
             st.video(youtube_link)
+st.write("by Esdras")
